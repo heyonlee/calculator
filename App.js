@@ -1,16 +1,11 @@
-import StarshipCard from "./StarshipCard"
+import Calculator from './Calculator';
+import {useState} from "react"
 import './App.css';
-import StarwarsAPI from './services/sw-api';
-import Header from "./Header";
 
 function App() {
-  
-
-
   return (
     <div className="App">
-      <Header/>
-     <StarwarsAPI/>
+    <Calculator/>
     </div>
   );
 }
